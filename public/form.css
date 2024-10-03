@@ -1,0 +1,300 @@
+
+
+form {
+    max-width: 700px;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #ccc;
+}
+
+.head-content {
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 17px;
+}
+
+.head-content p {
+    font-size: 15px;
+    opacity: 80%;
+    width: 89%;
+}
+
+.form-heading {
+    background-color: #E6FE00;
+    padding: 11px 135px 11px 135px;
+}
+
+.form-heading2 {
+    background-color: #E5EFFF;
+    padding: 11px 69px 11px 69px;
+}
+
+.form-heading2 h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #4A6594;
+}
+
+.center-content {
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 19px;
+}
+
+label {
+    height: 27px;
+    display: block;
+    color: #464A53;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input[type="text"], input[type="date"], input[type="number"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #DDDFE1;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1a351b;
+}
+
+h2, h3 {
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    color: #4A6594;
+}
+
+.idandfather {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.cnic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cnic [type="text"], #date {
+    width: 100%;
+    max-width: 308px;
+}
+
+#dob {
+    width: 308px;
+}
+
+.cnic p {
+    font-size: 10px;
+}
+
+.guardian {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.guardian p {
+    font-size: 10px;
+    margin-bottom: 0;
+    color: #4A6594;
+}
+
+.idandfather2 {
+    display: flex;
+    gap: 18px;
+
+}
+
+.cnic2 [type="text"], #dob2 {
+    width: 100%;
+    max-width: 207px;
+}
+
+.cnic2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cnic3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+.address {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.address p {
+    font-size: 10px;
+    margin-bottom: 0;
+    color: #4A6594;
+}
+
+.declaration {
+    width: 100%;
+    font-size: 15px;
+    color: #333;
+    opacity: 80%;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.nomination {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.nomination h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #4A6594;
+}
+
+.downbar {
+    background-color: #E5EFFF;
+    width: 100%;
+    height: 6px;
+} 
+
+.nominee {
+    color: #333;
+    opacity: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#relation, #nomineeAge {
+    width: 100%;
+    max-width: 207px;
+}
+
+.idandfather3 {
+    display: flex;
+    gap: 22px;
+}
+
+.cnic3 [type="text"] {
+    width: 100%;
+    max-width: 308px;
+}
+
+.nomineeName {
+   width: 308px;
+}
+
+.declaration2 {
+    width: 100%;
+    font-size: 15px;
+    color: #333;
+    opacity: 80%;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.drag-drop {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.drag-drop.dragging {
+    border-color: #000;
+}
+
+.preview-image {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+
+.preview-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.preview-image .remove-btn {
+    position: absolute;
+    width: 40px;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 10px;
+    color: green;
+}
+
+.drag-drop p {
+    margin-bottom: 0;
+}
+
+.drag-drop strong {
+    background-color: #4A6594;
+    color: white;
+    padding: 8px 10px 8px 10px;
+}
+
+.drag-an-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+
+.drag-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.drag-image img {
+    width: 30px;
+    height: 25px;
+}
+
+@media screen and (max-width: 500px) {
+    .idandfather3 {
+        gap: 5px;
+    }
+}
